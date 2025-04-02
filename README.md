@@ -10,7 +10,7 @@ docker-compose up -d
 ```
 Enter the backend container
 ```shell
-docker exec -it NAME-laravel-1 /bin/bash
+docker compose exec -u cosmos workspace zsh
 ```
 Install composer dependencies
 ```shell
